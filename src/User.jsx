@@ -59,20 +59,6 @@ const User = (props) => {
           </TableBody>
         </Table>
       </TableContainer>
-      {dialogCtx.dialog && (
-        <Card>
-          {" "}
-          <CardContent>
-            <Typography
-              sx={{ fontSize: 14 }}
-              color="text.secondary"
-              gutterBottom
-            >
-              Dialog Will Open
-            </Typography>{" "}
-          </CardContent>
-        </Card>
-      )}
     </>
   );
 };
